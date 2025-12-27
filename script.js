@@ -1,1 +1,1 @@
-console.log("Web cargada correctamente");
+console.log("Barbería Corte Fino cargada");
