@@ -1,135 +1,49 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muebles & Madera - Carpintería Artesanal</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <style>
-        :root {
-            --madera-oscuro: #5d4037;
-            --madera-claro: #d7ccc8;
-            --acento: #8d6e63;
-            --whatsapp: #25d366;
-            --instagram: #e1306c;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #fdfaf6;
-            color: #333;
-        }
-
-        header {
-            background-color: var(--madera-oscuro);
-            color: white;
-            padding: 2rem 1rem;
-            text-align: center;
-            border-bottom: 5px solid var(--acento);
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
-
-        section {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            margin-bottom: 2rem;
-        }
-
-        h2 { color: var(--madera-oscuro); border-bottom: 2px solid var(--madera-claro); padding-bottom: 10px; }
-
-        ul { list-style: none; padding: 0; }
-        ul li { padding: 10px 0; border-bottom: 1px solid #eee; }
-        ul li:before { content: "🌲 "; }
-
-        .contacto {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-            align-items: center;
-        }
-
-        .btn {
-            text-decoration: none;
-            color: white;
-            padding: 15px 30px;
-            border-radius: 50px;
-            font-weight: bold;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            width: 80%;
-            justify-content: center;
-            transition: transform 0.3s;
-        }
-
-        .btn:hover { transform: scale(1.05); }
-
-        .btn-ws { background-color: var(--whatsapp); }
-        .btn-ig { background-color: var(--instagram); }
-
-        .mapa {
-            color: #666;
-            font-style: normal;
-        }
-
-        footer { text-align: center; padding: 2rem; font-size: 0.9rem; color: #888; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeWebs - Desarrollo Web</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>NOMBRE DE TU LOCAL</h1>
-        <p>Calidad y Tradición en Madera</p>
-    </header>
+  <header>
+    <h1>CodeWebs</h1>
+    <p>Diseño y desarrollo de páginas web</p>
+  </header>
 
-    <div class="container">
-        
-        <section>
-            <h2>Nuestros Productos</h2>
-            <ul>
-                <li>Muebles a medida (mesas, sillas, estantes)</li>
-                <li>Decoración artesanal en madera</li>
-                <li>Restauración de piezas antiguas</li>
-                <li>Venta de tablones y cortes especiales</li>
-            </ul>
-        </section>
+  <section class="card">
+    <h2>👋 ¿Quién soy?</h2>
+    <p>
+      Soy desarrollador web y ayudo a negocios y emprendedores
+      a tener su propia página profesional en internet.
+    </p>
+  </section>
 
-        <section>
-            <h2>Ubicación</h2>
-            <p class="mapa">
-                <i class="fas fa-map-marker-alt"></i> 
-                Calle Principal #123, Colonia Centro<br>
-                Ciudad, Estado.
-            </p>
-        </section>
+  <section class="card">
+    <h2>💻 ¿Qué hago?</h2>
+    <ul>
+      <li>Páginas web simples y modernas</li>
+      <li>Landing pages para negocios</li>
+      <li>Webs rápidas, claras y funcionales</li>
+    </ul>
+  </section>
 
-        <section>
-            <h2>Contáctanos</h2>
-            <div class="contacto">
-                <a href="https://wa.me/1234567890" class="btn btn-ws">
-                    <i class="fab fa-whatsapp"></i> WhatsApp
-                </a>
-                
-                <a href="https://instagram.com/tu_usuario" class="btn btn-ig">
-                    <i class="fab fa-instagram"></i> Instagram
-                </a>
-            </div>
-        </section>
+  <section class="card">
+    <h2>📲 Contacto</h2>
+    <p>Escribime por donde te quede más cómodo:</p>
 
+    <div class="buttons">
+      <a href="https://instagram.com/codewebs2025" target="_blank">Instagram</a>
+      <a href="https://wa.me/5493795313629" target="_blank">WhatsApp</a>
     </div>
+  </section>
 
-    <footer>
-        &copy; 2024 Nombre del Local - Todos los derechos reservados.
-    </footer>
+  <footer>
+    <p>© 2026 - CodeWebs</p>
+  </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
